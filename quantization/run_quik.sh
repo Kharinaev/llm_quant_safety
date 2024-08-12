@@ -1,0 +1,2 @@
+#! /bin/bash
+python llama.py --fp_features_num 128 --model meta-llama/Meta-Llama-3.1-8B-Instruct --hf_token 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 --dataset wikitext2 --w_bits 4 --w_clip --a_bits 16 --save_qmodel_path ~/quantization/models/llama_31_8b_instruct_quik
