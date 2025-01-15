@@ -1,0 +1,44 @@
+[
+    {
+        "model_name": "VityaVitalich/Llama3.1-8b-instruct",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/llama_fp16.csv"
+    },
+    {
+        "model_name": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/llama_awq.csv"
+    },
+    {
+        "model_name": "/home/data/v.moskvoretskii/cache/Llama3.1-8b-instruct_4bit",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/llama_quik.csv"
+    },
+    {
+        "model_name": "ISTA-DASLab/Llama-3.1-8B-Instruct-AQLM-PV-2Bit-1x16-hf",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/llama_aqlm.csv",
+        "model_dtype": "float16",
+        "tokenizer_name": "VityaVitalich/Llama3.1-8b-instruct"
+    },
+    {
+        "model_name": "mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/llama_abl.csv"
+    },
+
+
+    
+    {
+        "model_name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/mistral_fp16.csv"
+    },
+    {
+        "model_name": "alokabhishek/Mistral-7B-Instruct-v0.2-4bit-AWQ",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/mistral_awq.csv"
+    },
+    {
+        "model_name": "/home/data/v.moskvoretskii/cache/Mistral-7B-Instruct-v02_4bit",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/mistral_quik.csv"
+    },
+    {
+        "model_name": "alpindale/Mistral-7B-Instruct-v0.2-AQLM-2Bit-1x16",
+        "savepath": "/root/llm_quant_safety/data/safetybench/responses/mistral_aqlm.csv",
+        "model_dtype": "float16"
+    }
+]

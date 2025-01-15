@@ -1,0 +1,11 @@
+[
+    {
+        "model_name": "alpindale/Mistral-7B-Instruct-v0.2-AQLM-2Bit-1x16",
+        "savepath": "/root/llm_quant_safety/data/safetybench/tmp/logits_sample_500_try.csv",
+        "model_dtype": "float16"
+    },
+    {
+        "model_name": "/home/data/v.moskvoretskii/cache/Llama3.1-8b-instruct_4bit",
+        "savepath": "/root/llm_quant_safety/data/safetybench/tmp/logits_sample_500_try_llama_abl.csv"
+    }
+]

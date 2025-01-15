@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python3 safetybench_eval.py --datapath /root/llm_quant_safety/data/safetybench/test_en_5shot_json.csv --savepath /root/llm_quant_safety/data/safetybench/responses/llama_quik.csv --max-tokens 32 --model-name /home/data/v.moskvoretskii/cache/Llama3.1-8b-instruct_4bit --gpu-memory-utilization 0.75
